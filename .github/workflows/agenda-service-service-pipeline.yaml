@@ -1,6 +1,6 @@
 name: Agenda Service - Service Pipeline
 env: 
-  KO_DOCKER_REPO: yvo39/platforme
+  KO_DOCKER_REPO: yvo39/platform
 on:
   push:
     branches: ['main']
