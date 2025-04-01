@@ -1,6 +1,6 @@
 name: Agenda Service - Service Pipeline
 env: 
-  KO_DOCKER_REPO: docker.io/eazytraining
+  KO_DOCKER_REPO: yvo39/platform
 on:
   push:
     branches: ['main']
