@@ -22,4 +22,5 @@ jobs:
       - name: Verify Docker Login
         run: docker run --rm hello-world
       - uses: ko-build/setup-ko@v0.6 #https://github.com/ko-build/setup-ko #
-      - run: ko build -t v1.0.1
+      - run: ko build --bare -t v1.0.1
+
